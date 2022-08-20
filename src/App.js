@@ -7,7 +7,7 @@ const App = () => {
 		<>
 			<Hero />
 			<NavBar />
-			<ItemListContainer />
+			<ItemListContainer greeting='En construccion...' />
 		</>
 	)
 }

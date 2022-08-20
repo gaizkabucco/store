@@ -1,5 +1,5 @@
-const ItemListContainer = () => {
-	return <div className='flex justify-center'>En construccion...</div>
+const ItemListContainer = ({ greeting }) => {
+	return <div className='flex justify-center'>{greeting}</div>
 }
 
 export default ItemListContainer
