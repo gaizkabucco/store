@@ -1,8 +1,13 @@
-import logo from "./logo.svg"
-import "./App.css"
+import NavBar from "./components/NavBar"
+import Hero from "./components/Hero"
 
-function App() {
-	return <h1>Hello</h1>
+const App = () => {
+	return (
+		<>
+			<Hero />
+			<NavBar />
+		</>
+	)
 }
 
 export default App
