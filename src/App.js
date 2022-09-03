@@ -6,7 +6,6 @@ const App = () => {
 	return (
 		<>
 			<Hero />
-			<NavBar />
 			<ItemListContainer greeting='En construccion...' />
 		</>
 	)

@@ -2,11 +2,22 @@ import CartWidget from "./CartWidget"
 
 const NavBar = () => {
 	return (
-		<nav className='w-screen min-h-[60px] border-y border-[rgba(0,0,0,0.15)] sticky flex px-6 items-center justify-between'>
+		<nav className='w-screen min-h-[60px] border-y border-[rgba(0,0,0,0.15)] sticky flex px-6 items-center justify-center gap-6'>
 			<div>
-				<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>
-					<path d='M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z'></path>
-				</svg>
+				<ul className='flex gap-2'>
+					<li>
+						<a href='#'>INICIO</a>
+					</li>
+					<li>
+						<a href='#'>PRODUCTOS</a>
+					</li>
+					<li>
+						<a href='#'>NOSOTROS</a>
+					</li>
+					<li>
+						<a href='#'>CONTACTO</a>
+					</li>
+				</ul>
 			</div>
 			<div className='flex gap-2'>
 				<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>
