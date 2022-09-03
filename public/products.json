@@ -3,18 +3,21 @@
 		"id": 0,
 		"title": "Esponja Vegetal",
 		"price": "$180,00",
-		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/42dcd46023884fc5351cec8613c95eeb461ab183bc66711693390c237b0d7e5748488.jpeg"
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/42dcd46023884fc5351cec8613c95eeb461ab183bc66711693390c237b0d7e5748488.jpeg",
+		"stock": 3
 	},
 	{
 		"id": 1,
 		"title": "Shampoo pelo normal 65gr",
 		"price": "$550,00",
-		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/0c7d541baa71a9e5d815e774b821ccf205af367763756f42971f7ce0eb124cf648488.jpeg"
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/0c7d541baa71a9e5d815e774b821ccf205af367763756f42971f7ce0eb124cf648488.jpeg",
+		"stock": 0
 	},
 	{
 		"id": 2,
 		"title": "Jabón Vegetal con Crema de Leche 100gr",
 		"price": "$315,00",
-		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/41f30875d386df6858e52e9c228f8a29c9650b920fc77b6b30c9776e30a768b948488.jpeg"
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/41f30875d386df6858e52e9c228f8a29c9650b920fc77b6b30c9776e30a768b948488.jpeg",
+		"stock": 5
 	}
 ]
