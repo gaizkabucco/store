@@ -4,7 +4,9 @@ const ItemCount = ({ stock, initial }) => {
 	const displayQuantity = stock === 0 ? "SIN STOCK" : initial
 	const [quantity, setQuantity] = useState(displayQuantity)
 	const onAdd = () => {
-		console.log(`Se ha/n agregado ${quantity} elemento/s al carrito`)
+		if (quantity !== "SIN STOCK") {
+			console.log(`Se ha/n agregado ${quantity} elemento/s al carrito`)
+		}
 	}
 
 	return (
