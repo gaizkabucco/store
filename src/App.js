@@ -1,11 +1,11 @@
 import Hero from "./components/Hero"
-import ItemListContainer from "./components/ItemListContainer.js"
+import ItemCount from "./components/ItemCount"
 
 const App = () => {
 	return (
 		<>
 			<Hero />
-			<ItemListContainer />
+			<ItemCount stock={5} initial={1} />
 		</>
 	)
 }

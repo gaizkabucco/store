@@ -1,14 +1,42 @@
-const ItemCount = ({ stock }) => {
+import { useState } from "react"
+
+const ItemCount = ({ stock, initial }) => {
+	const displayQuantity = stock === 0 ? "SIN STOCK" : initial
+	const [quantity, setQuantity] = useState(displayQuantity)
+	const onAdd = () => {
+		console.log(`Se ha/n agregado ${quantity} elemento/s al carrito`)
+	}
+
 	return (
 		<div className='w-full border-t border-transparent'>
 			<div className='flex border-t justify-between'>
-				<button className='bg-gray-200 px-4 py-1'>-</button>
+				<button
+					onClick={() => {
+						if (quantity > initial) {
+							setQuantity(quantity - 1)
+						}
+					}}
+					className='bg-gray-200 px-4 py-1'
+				>
+					-
+				</button>
 				<div>
-					<p className='py-1'>{stock}</p>
+					<p className='py-1'>{quantity}</p>
 				</div>
-				<button className='bg-gray-200 px-4 py-1'>+</button>
+				<button
+					onClick={() => {
+						if (quantity < stock) {
+							setQuantity(quantity + 1)
+						}
+					}}
+					className='bg-gray-200 px-4 py-1'
+				>
+					+
+				</button>
 			</div>
-			<button className='bg-green-200 w-full py-1'>AGREGAR AL CARRITO</button>
+			<button className='bg-green-200 w-full py-1' onClick={onAdd}>
+				AGREGAR AL CARRITO
+			</button>
 		</div>
 	)
 }
