@@ -9,7 +9,7 @@ const ItemList = ({ items }) => {
 		)
 	} else {
 		return (
-			<div className='grid grid-cols-2 gap-8 lg:grid-cols-3'>
+			<div className='grid gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
 				{items.map(item => (
 					<Item key={item.id} {...item} />
 				))}

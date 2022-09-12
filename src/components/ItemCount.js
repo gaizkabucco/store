@@ -5,7 +5,7 @@ const ItemCount = ({ stock, initial }) => {
 	const [quantity, setQuantity] = useState(displayQuantity)
 	const onAdd = () => {
 		if (quantity !== "SIN STOCK") {
-			console.log(`Se ha/n agregado ${quantity} elemento/s al carrito`)
+			alert(`Se ha/n agregado ${quantity} elemento/s al carrito`)
 		}
 	}
 
@@ -22,9 +22,7 @@ const ItemCount = ({ stock, initial }) => {
 				>
 					-
 				</button>
-				<div>
-					<p className='py-1'>{quantity}</p>
-				</div>
+				<div>{quantity}</div>
 				<button
 					onClick={() => {
 						if (quantity < stock) {

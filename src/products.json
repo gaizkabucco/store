@@ -1,23 +1,290 @@
 [
 	{
-		"id": "0",
-		"title": "Esponja Vegetal",
-		"price": "180,00",
-		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/42dcd46023884fc5351cec8613c95eeb461ab183bc66711693390c237b0d7e5748488.jpeg",
-		"stock": 3
-	},
-	{
 		"id": "1",
-		"title": "Shampoo pelo normal 65gr",
-		"price": "550,00",
-		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/0c7d541baa71a9e5d815e774b821ccf205af367763756f42971f7ce0eb124cf648488.jpeg",
-		"stock": 0
+		"title": "Esponja Vegetal",
+		"price": 180.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/42dcd46023884fc5351cec8613c95eeb461ab183bc66711693390c237b0d7e5748488.jpeg",
+		"description": "Es un producto natural, nuestras esponjas no están blanqueadas con cloro. Son biodegradables, veganas y ecológicas. Se emplea en múltiples usos, tanto para el cuidado personal como para el lavado de vajilla.",
+		"stock": 3,
+		"category": "accesorios"
 	},
 	{
 		"id": "2",
+		"title": "Shampoo pelo normal 65gr",
+		"price": 550.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/0c7d541baa71a9e5d815e774b821ccf205af367763756f42971f7ce0eb124cf648488.jpeg",
+		"description": "Shampoo sólido natural para cabello normal, hecho con tensioactivo derivado del coco y aceites esenciales. Sin parabenos, sulfatos, siliconas, gluten, detergentes y conservantes, limpia el cabello en profundidad y lo deja brilloso y manejable desde su primer uso. Es ideal para todo tipo de cabello.",
+		"stock": 0,
+		"category": "limpieza"
+	},
+	{
+		"id": "3",
 		"title": "Jabón Vegetal con Crema de Leche 100gr",
-		"price": "315,00",
+		"price": 315.0,
 		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/41f30875d386df6858e52e9c228f8a29c9650b920fc77b6b30c9776e30a768b948488.jpeg",
-		"stock": 5
+		"description": "El Jabón Vegetal con Crema de Leche posee todos los nutrientes de la leche para dejar la piel suave, flexible y brillante. Los ingredientes naturales penetran de manera gentil en los poros de la piel, removiendo la suciedad desde adentro. Mantenga su cutis suave e hidratado con nuestros Jabones 100% Vegetales.",
+		"stock": 5,
+		"category": "limpieza"
+	},
+	{
+		"id": "4",
+		"title": "Desodorante de Carbón Activado 30 gr.",
+		"price": 300.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/e7ac158286ff70db2162ac7cc5f0e344dd28678318f2a67c450ab5640e7e6b6e48488.jpeg",
+		"description": "Desodorante 100% natural hecho sin ingredientes dañinos para la salud como parabenos, aluminio y fragancias sintéticas. El principal ingrediente del desodorante es el Carbón Activado, un compuesto natural de origen vegetal, que tiene la capacidad de absorber la transpiración manteniendo las axilas secas, también blanquea las axilas y eliminar toxinas. Forma una capa invisible absorbente que genera un PH balanceado en las axilas que neutraliza el olor y protege las prendas de la transpiración. Es ideal para pieles sensibles.",
+		"stock": 3,
+		"category": "limpieza"
+	},
+	{
+		"id": "5",
+		"title": "Bálsamo Labial Ayurvédico 10gr.",
+		"price": 420.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/ff86ee4694f50764c8622f4619e0f71dff2101019e7c8be234c81a333018667348488.jpeg",
+		"description": "Te sumás al hábito de usar productos no testeados en animales, libres de gluten y sin parabenos. El bálsamo labial está realizado por meditadores de la India.",
+		"stock": 3,
+		"category": "limpieza"
+	},
+	{
+		"id": "6",
+		"title": "Pack eco cubiertos de Bambú, cuchara, tenedor y cuchillo.",
+		"price": 560.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/8a643707f54213d3fa5e5c831976f13cd0a05dac5dd3d8914ff776bf981c308548488.jpeg",
+		"description": "Eco Cubiertos Clásicos. Vienen envasados en una bolsa biodegradable de origen vegetal y contiene semillas de regalo. Hechos Con Caña “Arundo Donax”, Biodegradables, Re-utilizables (Cuchillo, Tenedor y Cuchara). Los Eco Cubiertos Ciclo sin Fin son creados para reducir el uso de materiales no renovables, plástico, acero, etc. Brindándote un bio producto natural que al final de su vida útil regresa al suelo y se convierte en abono orgánico. Producto de Triple Impacto: Social, Ambiental y Económico.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "7",
+		"title": "Eco peine en Madera Paraíso.",
+		"price": 599.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/8d58baac4e7ef0c40c754deea029975bb71abfcde1af2266ce805cded716f04e48488.jpeg",
+		"description": "Estás reemplazando el cepillo de plástico por un eco-peine biodegradable, sin procesos químicos, vegano y compostable.  es fabricado 100% en madera de bosques productivos. Al ser fabricado en Argentina reduce la huella de CO2 de los peines plásticos y de madera importados. Es 100% natural, no recibe ningún químico, apta veganos. Fácil de secar, pierde rápidamente la humedad. Poco propensa a deformarse. no dañan el ambiente, no dañan el ambiente. 19 cm de largo x 6 cm de alto x 1 cm de ancho. Mango de 8 cm.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "8",
+		"title": "Acondicionador sólido 45gr.",
+		"price": 600.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/d73b2c0559252717e49ff123e0748f5c776ea8d990d11c6ba1286963a8a8c40448488.jpeg",
+		"description": "Nuestro acondicionador contiene Manteca de Karité, Manteca de Cacao, Aceite de Jojoba, Vitamina E, Aceite de Mango y Maracuya, Alcohol cetílico y Aceite esencial de Bergamota.",
+		"stock": 3,
+		"category": "limpieza"
+	},
+	{
+		"id": "9",
+		"title": "Shampoo sólido para pelo teñido 65 gr.",
+		"price": 550.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/f3692e8dcb79049a5aa13578e373484225eeb42729783a6d6cd382dae6e2a71e48488.jpeg",
+		"description": "Nuestro shampoo esta hecho con tensioactivo derivado del coco y aceites esenciales de Lavanda. Sin parabenos, sulfatos, siliconas, gluten, detergentes y conservantes. obtendrás elasticidad, nutrición y brillo gracias a su base de aceite de coco, manteca de karité y aceite de jojoba. El aceite de jojoba, aporta minerales y humecta profundamente el cabello. Es ideal para cabellos teñidos. Recuerden que al no llevar sulfatos, tu color no perderá intensidad.",
+		"stock": 3,
+		"category": "limpieza"
+	},
+	{
+		"id": "10",
+		"title": "Jabón Detox para la cara.",
+		"price": 350.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/e1fabff914c5d7af5ef0d431417031e468eea9ec173a958c3a17d53346be389348488.jpeg",
+		"description": "Este jabón es especialmente para la cara con aceites y vitaminas que nutren tu piel y carbón activado que absorbe las toxinas. Con Vitamina E, que tiene efecto antiage y antioxidante, hidrata y repara tejidos. Aceite de almendras que es antiinflamatorio y calma alergias e irritaciones de la piel. Manteca de cacao, que si de hidratar hablamos, ella es la reina!!! Penetra en las diversas capas dérmicas, brindando suavidad, flexibilidad y brillo en la zona. Aceite de Argán, rico en Vitamina E y antioxidantes, potente hidratador, potencia los efectos de los otros aceites combinados.",
+		"stock": 3,
+		"category": "limpieza"
+	},
+	{
+		"id": "11",
+		"title": "BOX 4",
+		"price": 1750.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/117a257e5f23a6b22d99826cf76d2ba8059f70c3edbc4923abf79c3bf18589ff48488.jpeg",
+		"description": "Jabonera doble en Madera de Kiri, Shampoo sólido para pelo normal, Jabón para la cara Carbón Activado.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "12",
+		"title": "BOX 3",
+		"price": 1100.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/6133c120b351fd0a7467b06540f4e467c486c5e682e336422a586da4598c51d348488.jpeg",
+		"description": "1 Cepillo de dientes de Bambú a elección, 1 Pasta Dental de canela, clavo de olor mayaphal y pimienta negra, 1 pack de hisopos por 50 unidades.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "13",
+		"title": "BOX 2",
+		"price": 1100.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/220aa1a1aa19f8b382387147a93a645ad205ad5d8834b74b675d22c29e415bdc48488.jpeg",
+		"description": "Jabonera de madera de Kiri, Jabón Vegetal con crema de leche, Desodorante para piel sensible.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "14",
+		"title": "BOX 1",
+		"price": 800.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/840eabc4ca559cc247fc9097904b4db1ea346ceb8015e37199e7ccd01f470f2748488.jpeg",
+		"description": "Esponja Vegetal, set de cubiertos de Bambú, sorbete de Bambú.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "15",
+		"title": "Crema de manos hipoalergénica de flores de Cerezo 90ml.",
+		"price": 495.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/356351ac3b4ba6d67d168255552849a1b0787e8bde8dffecef1a2fda0d31ae3648488.jpeg",
+		"description": "Brindarle cuidado y suavidad a tus manos, con una crema libre de crueldad animal, 100% Vegana, Hipoalergénica y Sin TACC (apto celíacos). Sea por la sequedad causada por el clima frío, el calor o el trabajo diario que las dañe, tus Manos siempre estarán hidratadas y suaves. Clínica y Dermatológicamente testeada. Su fórmula NO contiene Parabenos, Ftalatos, Lanolina o Vaselina. Es Libre de Organismos Genéticamente Modificados (OGM).",
+		"stock": 3,
+		"category": "limpieza"
+	},
+	{
+		"id": "16",
+		"title": "Jabonera simple en madera de Kiri.",
+		"price": 569.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/ebb2d24c1ff64af92085209f804936148e24177b0ce9d8783fe3b1a9b0c43d0848488.jpeg",
+		"description": "Reducís del uso de plásticos, Ideal para ubicar tu jabón vegetal ya que facilita el drenaje del agua. Es ultra liviana, resiste el vapor y la humedad. Tiene 10 cm de diámetro. Árbol de Kiri: tiene una capacidad de absorción de CO2 muy superior a otras plantas y de crecimiento muy rápido, alcanzando los 30 metros sin grandes necesidades de agua.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "17",
+		"title": "Envoltorio ecológico reutilizable de tela encerada pack x 4.",
+		"price": 1100.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/77f4c877c9b4ae9bfc45d7b421d7e909761dd9c7cf630d9308f5b900dd3bb99548488.jpeg",
+		"description": "Envoltorios reutilizables de cera de abeja, todos los ingredientes utilizados para confeccionarlas son 100% naturales.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "18",
+		"title": "Pasta dental sudanta 100gr.",
+		"price": 950.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/f9ffaef06b44dae11bf510d25d9266d4ce4f2124083fb612e6833b36fe673e7748488.jpeg",
+		"description": "Te sumás al hábito de usar productos no testeados en animales y sin parabenos, es apta celíacos, veganos. Su fórmula libre de flúor asegura encías más sanas y dientes más fuertes. Este producto no está formulado para su uso en niños.",
+		"stock": 3,
+		"category": "limpieza"
+	},
+	{
+		"id": "19",
+		"title": "Esponja konjac corporal.",
+		"price": 550.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/d33c4975a256dd8557ebed97bf71c2d3ee049c91c2a929d292bf004fefa88c5548488.jpeg",
+		"description": "El konjac es un tubérculo que crece en el sudeste asiático, concretamente en los bosques tropicales de zonas como China, Japón, Vietnam o Indonesia, que durante siglos ha sido utilizado como medicamento natural por sus interesantes propiedades físicas y también, nutricionales. Por lo tanto es un producto biodegradable, ecológico.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "20",
+		"title": "Esponja vegetal lavavajilla reforzada.",
+		"price": 110.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/a52750463ecc9616f637b34738a89872870e4661e42f39bb64d9839f0937e14748488.jpeg",
+		"description": "Las esponjas vegetales son 100% biodegradables, no blanqueadas con cloro, veganas y ecológicas, ya que tras su utilización pueden volver al compost. Al utilizar esponjas vegetales, estamos desarrollando la economía regional de zonas subtropicales de Argentina: Misiones, Formosa de donde proviene la cosecha del fruto. Medidas aproximadas: 12 cm de largo x 8 cm de de ancho x 0,5 centímetros de alto. El alto es irregular, por ser un producto vegetal, pueden venir mas finas o mas gruesas, el ancho es variable.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "21",
+		"title": "Sorbetes ecológicos de caña de bambú.",
+		"price": 99.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/3accd755889a717d0cda52673d5f46e7f21fa299991c71ee98662eff08f8950f48488.jpeg",
+		"description": "Sorbetes de bambú reutilizables, livianos y sin productos químicos ni colorantes. Los sorbetes son de distintos grosores y tonalidades por tratarse de una planta, 100% natural, de caña de bambú completamente biodegradables y no contaminan. Los sorbetes, pajitas de bambú son la mejor alternativa sostenible a los sorbetes de plástico, papel, acero, aluminio o cristal. Los sorbetes de bambú pueden usarse hasta 2 años con una conservación e higiene adecuada.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "22",
+		"title": "Agua de rosas.",
+		"price": 680.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/57f0a064b73dab37e5632a4fd00ed4483871498f3d6f0a32dc0a572745a489be48488.jpeg",
+		"description": "Además de embellecer y cuidar tu piel, te sumás al hábito de utilizar productos que fomentan el cuidado del medioambiente. Inspirada en el poder y en la suavidad que caracteriza a las rosas, esta agradable fragancia revitaliza la piel cansada y opaca. Presentación: 100 ml",
+		"stock": 3,
+		"category": "limpieza"
+	},
+	{
+		"id": "23",
+		"title": "Cepillo de dientes de bambú mediano.",
+		"price": 220.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/bec3bcdd473492e7161118a3a6df62a6b84774cc25af658eb504443f4d09331d48488.jpeg",
+		"description": "Reducís el impacto ambiental. Estos cepillos tardan 180 días en biodegradarse y sus cerdas son reciclables. Reducís plástico, cuidas tu salud y cuidas el planeta. 97% Biodegradable: El bambú es una de las plantas que más rápido crece en el mundo. Tiene propiedades antibacterianas. No requiere riego artificial, pesticidas ni fertilizantes. 3% Reciclable: Cerdas de Nylon reciclables. Disponible en dureza media. Misma vida útil y calidad de lavado que un cepillo de plástico.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "24",
+		"title": "Protector diario colaless.",
+		"price": 230.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/79e1ca66b182349bf3f022423cf82c77c7839d2a5eae538ecd074a0a9836287b48488.jpeg",
+		"description": "Con tu aporte consciente reemplazás el plástico y el algodón descartable de los protectores convencionales por protectores diarios de tela. No generan alergia, son absorbentes, fáciles de lavar, y más naturales para tu cuerpo. Están hechas de tres capas de tela, una es absorbente y las otras dos capas son de algodón. La tela que va en contacto con la piel puede ser gabardina o piqué 100% algodón.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "25",
+		"title": "Protector diario vedetina.",
+		"price": 230.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/bd812c1fa5a46038bda37b172e652dfcd84d66c603512d87b6fa8ac71e4c54c448488.jpeg",
+		"description": "Los protectores diarios son tela ecológica y reutilizable, no generan alergia, son absorbentes, fácil de lavar y mas naturales para tu cuerpo. Están hechas de tres capas de tela, una es absorbente y las otras dos son de algodón, la tela que va en contacto con la piel puede ser gabardina o piqué. 100% algodón.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "26",
+		"title": "Hisopos de bambú y algodón.",
+		"price": 215.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/ef77a8126271ae170d4e2d6ccdb7644cd32c3e47924c8b38064f67d41ed9bce148488.jpeg",
+		"description": "Los hisopos de bambú son 100% biodegradables, perfectos para sumar a tu rutina diaria y seguir con el proceso de disminución del uso de plástico. Vienen en pack de 50 unidades en bolsita reutilizable.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "27",
+		"title": "Discos desmaquillantes pack x 3.",
+		"price": 255.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/5896615c75410b0f53242ea95e6124455ecc5a0171c41e43a0e904d95f1cf97d48488.jpeg",
+		"description": "Los discos desmaquillantes son lavables, por lo tanto reutilizables, ayudan a eliminar suavemente el maquillaje. Forma de uso: Colocar el producto en el disco y aplicarlo, puede usarse con cremas desmaquillantes, agua micelar. Se lavan delicadamente con agua fría y jabón blanco.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "28",
+		"title": "Cepillo de dientes de bambú.",
+		"price": 285.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/d353f2ac76b4c6b66d8f72d31e16f0898533e6bb9641794bc813094aee32c13e48488.jpeg",
+		"description": "Los cepillos de dientes son biodegradables y sus cerdas reciclables, poseen la misma vida útil que los cepillos convencionales. 97% biodegradable: El bambú es una planta que mas rápido crece en el mundo. 3% reciclable: Con cerdas de nylon reciclable. Disponible en 4 colores a elección y en dureza media.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "29",
+		"title": "Desodorante sólido en envase de vidrio 60gr.",
+		"price": 770.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/f1632fd403914815faa72e07acbb1690f03e35fe11c87973d1777e0a3c52408048488.jpeg",
+		"description": "Estas incorporando a tu cuidado personal un desodorante vegano, no testeado en animales y en envase de vidrio. Autorizado por el ministerio de salud/ANMAT. Contiene: Manteca de karité, aceite de coco, bicarbonato de sodio, almidón de maíz, vitamina E y lavanda.",
+		"stock": 3,
+		"category": "limpieza"
+	},
+	{
+		"id": "30",
+		"title": "Jabonera redonda doble Madera de Kiri.",
+		"price": 900.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/72ad82e9de10fc9a64f1537b01a74184e675f743c2cdef5ef48cc684fcae67fb48488.jpeg",
+		"description": "Reducís el uso de plásticos, ayudas a reducir la huella CO2. Ideal para ubicar tu shampoo y acondicionador sólido, es de fácil drenaje. La madera de kiri es 100% natural, apto veganos, no recibe ningún químico, pierde rápidamente la humedad, poco propensa a deformarse, resiste el vapor.",
+		"stock": 3,
+		"category": "accesorios"
+	},
+	{
+		"id": "31",
+		"title": "Acondicionador de coco sólido 55gr.",
+		"price": 705.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/1863dd3d0766cd273b3a33f0018ab3c668e7c93978eb1477c330d69eb0aaa63248488.jpeg",
+		"description": "Disfrutas del uso de un producto fresco y natural hecho a mano 100% vegano y cruelty-free. No contiene conservantes, parabenos ni siliconas dejará tu cabello suave y brillante. El uso del acondicionador sólido de coco, evita la pérdida de proteínas que llevan a la sequedad y rotura del cabello.",
+		"stock": 3,
+		"category": "limpieza"
+	},
+	{
+		"id": "32",
+		"title": "Shampoo de ricino sólido 75gr",
+		"price": 670.0,
+		"pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/5d8e2626e67189c00e09713a7c549794215531ad506c83cf7d134679a9d9d67948488.jpeg",
+		"description": "Shampoo sólido de ricino, estimula el crecimiento del cabello, disminuye el frizz, proporciona nutrición e hidratación cruelty-free y vegano. No contiene parabenos ni tampoco aceite de palma. Excelente opción para el cuidado del cabello y el medio ambiente.",
+		"stock": 3,
+		"category": "limpieza"
 	}
 ]
