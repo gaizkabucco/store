@@ -6,14 +6,6 @@ import { useParams } from "react-router-dom"
 const ItemListContainer = () => {
 	const params = useParams()
 	const [products, setProducts] = useState([])
-	const [url, setUrl] = useState([])
-
-	useEffect(() => {
-		if (url !== params) {
-			setUrl(params)
-			setProducts([])
-		}
-	}, [params, url])
 
 	const getProducts = (data, time) =>
 		new Promise((resolve, reject) => {
@@ -27,13 +19,10 @@ const ItemListContainer = () => {
 		})
 
 	useEffect(() => {
+		setProducts([])
 		getProducts(productsJSON, 2000)
 			.then(res => {
-				if (Object.keys(params).length === 0) {
-					setProducts(res)
-				} else {
-					setProducts(res.filter(results => results.category === params.id))
-				}
+				Object.keys(params).length === 0 ? setProducts(res) : setProducts(res.filter(results => results.category === params.id))
 			})
 			.catch(err => {
 				console.log(err, ": No se encontraron productos")

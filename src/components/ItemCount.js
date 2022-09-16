@@ -1,20 +1,14 @@
 import { useState } from "react"
 
-const ItemCount = ({ stock, initial }) => {
-	const displayQuantity = stock === 0 ? "SIN STOCK" : initial
+const ItemCount = ({ stock, displayQuantity, onAdd }) => {
 	const [quantity, setQuantity] = useState(displayQuantity)
-	const onAdd = () => {
-		if (quantity !== "SIN STOCK") {
-			alert(`Se ha/n agregado ${quantity} elemento/s al carrito`)
-		}
-	}
 
 	return (
 		<div className='w-full border-t border-transparent'>
 			<div className='flex border-t justify-between'>
 				<button
 					onClick={() => {
-						if (quantity > initial) {
+						if (quantity > displayQuantity) {
 							setQuantity(quantity - 1)
 						}
 					}}
@@ -34,7 +28,7 @@ const ItemCount = ({ stock, initial }) => {
 					+
 				</button>
 			</div>
-			<button className='bg-green-200 w-full py-1' onClick={onAdd}>
+			<button className='bg-green-200 w-full py-1' onClick={() => onAdd(quantity)}>
 				AGREGAR AL CARRITO
 			</button>
 		</div>
