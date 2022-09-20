@@ -4,7 +4,9 @@ import { useCartContext } from "../context/CartContext"
 const CartWidget = () => {
 	const { cartTotal } = useCartContext()
 
-	return (
+	return cartTotal() === 0 ? (
+		<></>
+	) : (
 		<Link to={`/cart`}>
 			<div className='flex'>
 				<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>

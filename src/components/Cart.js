@@ -29,8 +29,11 @@ const Cart = () => {
 					</div>
 				</div>
 			) : (
-				<div className='flex justify-center p-6'>
+				<div className='flex justify-center p-6 flex-col'>
 					<h3>No Hay Productos</h3>
+					<Link to={"/"}>
+						<p className='underline mt-3'>Volver a la tienda</p>
+					</Link>
 				</div>
 			)}
 		</div>

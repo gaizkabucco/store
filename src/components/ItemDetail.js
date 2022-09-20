@@ -33,7 +33,7 @@ const ItemDetail = ({ item }) => {
 				<span>Stock: {item.stock}</span>
 				{quantity ? (
 					<Link to={`/cart`}>
-						<button className='bg-green-200 w-full py-1'>Ir al carrito</button>
+						<button className='bg-green-200 w-full py-1'>Terminar mi compra</button>
 					</Link>
 				) : (
 					<ItemCount stock={item.stock} displayQuantity={item?.stock === 0 ? "SIN STOCK" : initial} onAdd={onAdd} />
