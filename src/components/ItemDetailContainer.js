@@ -8,28 +8,6 @@ const ItemDetailContainer = () => {
 	const params = useParams()
 	const [item, setItem] = useState()
 
-	// const getItem = (data, time) =>
-	// 	new Promise((resolve, reject) => {
-	// 		setTimeout(() => {
-	// 			if (data) {
-	// 				resolve(data)
-	// 			} else {
-	// 				reject("Error")
-	// 			}
-	// 		}, time)
-	// 	})
-
-	// useEffect(() => {
-	// 	getItem(productsJSON, 2000)
-	// 		.then(res => {
-	// 			const response = res.find(elem => elem.id === params.id)
-	// 			setItem(response)
-	// 		})
-	// 		.catch(err => {
-	// 			console.log(err, ": Producto")
-	// 		})
-	// }, [params])
-
 	const getItem = id => {
 		const db = getFirestore()
 
