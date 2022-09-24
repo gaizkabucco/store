@@ -28,7 +28,7 @@ const ItemDetail = ({ item }) => {
 			<div className='flex flex-col item-center text-center w-4/5 max-w-3xl m-auto'>
 				<img src={item.pictureUrl} alt={item.title} className='aspect-video object-cover cursor-pointer' />
 				<h2 className='hover:underline cursor-pointer'>{item.title}</h2>
-				<h3>{`$${item.price.toString()},00`}</h3>
+				<h3>Precio: ${item.price}</h3>
 				<h4>{item.description}</h4>
 				<span>Stock: {item.stock}</span>
 				{quantity ? (

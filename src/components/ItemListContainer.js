@@ -1,32 +1,32 @@
 import { useState, useEffect } from "react"
 import ItemList from "./ItemList"
-import productsJSON from "../products.json"
 import { useParams } from "react-router-dom"
+import { collection, getDocs, getFirestore, query, where } from "firebase/firestore"
 
 const ItemListContainer = () => {
 	const params = useParams()
 	const [products, setProducts] = useState([])
 
-	const getProducts = (data, time) =>
-		new Promise((resolve, reject) => {
-			setTimeout(() => {
-				if (data) {
-					resolve(data)
-				} else {
-					reject("Error")
-				}
-			}, time)
-		})
+	const getProducts = category => {
+		const db = getFirestore()
 
-	useEffect(() => {
-		setProducts([])
-		getProducts(productsJSON, 2000)
-			.then(res => {
-				Object.keys(params).length === 0 ? setProducts(res) : setProducts(res.filter(results => results.category === params.id))
+		const q = Object.keys(params).length === 0 ? collection(db, "products") : query(collection(db, "products"), where("category", "==", category.id))
+
+		getDocs(q)
+			.then(snapshot => {
+				if (snapshot.size === 0) {
+					console.log("No se encontraron productos")
+				}
+				setProducts(snapshot.docs.map(d => ({ id: d.id, ...d.data() })))
 			})
 			.catch(err => {
 				console.log(err, ": No se encontraron productos")
 			})
+	}
+
+	useEffect(() => {
+		setProducts([])
+		getProducts(params)
 	}, [params])
 
 	return (
