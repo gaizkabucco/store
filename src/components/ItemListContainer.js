@@ -10,7 +10,8 @@ const ItemListContainer = () => {
 	const getProducts = category => {
 		const db = getFirestore()
 
-		const q = Object.keys(params).length === 0 ? collection(db, "products") : query(collection(db, "products"), where("category", "==", category.id))
+		const q =
+			Object.keys(category).length === 0 ? collection(db, "products") : query(collection(db, "products"), where("category", "==", category.id))
 
 		getDocs(q)
 			.then(snapshot => {
