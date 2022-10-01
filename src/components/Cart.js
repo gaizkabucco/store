@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { useCartContext } from "../context/CartContext"
+import UserForm from "./UserForm"
 
 const Cart = () => {
 	const { cart, removeItem, clear } = useCartContext()
@@ -26,6 +27,7 @@ const Cart = () => {
 						<button className='border-2 w-content py-1 px-2 rounded-md' onClick={clear}>
 							Eliminar Todo
 						</button>
+						<UserForm total={cart.reduce((total, item) => (total += item.quantity * item.price), 0)} />
 					</div>
 				</div>
 			) : (
