@@ -3,7 +3,7 @@
 This is a sample application that demonstrates an E-commerce website using React. The application loads
 products a from a Firebase database and displays them. Users can select to display products in a single category. Users can
 click on any product to get more information including pricing and description. Users can select items and
-choose quantity to add to shopping cart and confirm the purchase to be sent to de database.
+choose quantity to add to shopping cart and confirm the purchase to be sent to de database, getting your order number.
 
 ## Getting Started
 

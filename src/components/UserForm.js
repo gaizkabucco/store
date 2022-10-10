@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { useCartContext } from "../context/CartContext"
 import { addDoc, collection, doc, getFirestore, updateDoc } from "firebase/firestore"
+import { toast } from "react-toastify"
 
 const UserForm = total => {
 	const { cart, clear } = useCartContext()
@@ -27,7 +28,16 @@ const UserForm = total => {
 		const ordersCollection = collection(db, "orders")
 		addDoc(ordersCollection, order)
 			.then(
-				({ id }) => alert(`Orden creada correctamente, su numero de orden es: ${id}`),
+				({ id }) =>
+					toast(`Orden creada correctamente, su numero de orden es: ${id}`, {
+						position: "top-center",
+						autoClose: 2000,
+						hideProgressBar: true,
+						closeOnClick: true,
+						pauseOnHover: true,
+						draggable: true,
+						progress: undefined,
+					}),
 				order.items.forEach(item => {
 					const orderItem = doc(db, "products", item.id)
 					updateDoc(orderItem, { stock: item.stock - item.quantity })
@@ -35,7 +45,15 @@ const UserForm = total => {
 				clear()
 			)
 			.catch(() => {
-				alert("No se ha podido completar la orden, por favor intentalo nuevamente.")
+				toast(`No se ha podido completar la orden, por favor intentalo nuevamente.`, {
+					position: "top-center",
+					autoClose: 2000,
+					hideProgressBar: true,
+					closeOnClick: true,
+					pauseOnHover: true,
+					draggable: true,
+					progress: undefined,
+				})
 			})
 	}
 

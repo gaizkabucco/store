@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import { toast } from "react-toastify"
 import { useCartContext } from "../context/CartContext"
 import ItemCount from "./ItemCount"
 
@@ -12,7 +13,15 @@ const ItemDetail = ({ item }) => {
 	const onAdd = quantityToAdd => {
 		if (quantity !== "SIN STOCK") {
 			setQuantity(quantityToAdd)
-			alert(`Elemento/s agregado/s al carrito.`)
+			toast(`Elemento/s agregado/s al carrito.`, {
+				position: "top-center",
+				autoClose: 2000,
+				hideProgressBar: true,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+			})
 			AddItem(item, quantityToAdd)
 		}
 	}
